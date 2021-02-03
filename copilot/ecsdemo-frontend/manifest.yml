@@ -42,7 +42,7 @@ count: 1
 # You can override any of the values defined above by environment.
 environments:
   test:
-    count: 4               # Number of tasks to run for the "test" environment.
+    count: 3               # Number of tasks to run for the "test" environment.
 variables:
   AWS_DEFAULT_REGION: us-west-2
   CRYSTAL_URL: "http://ecsdemo-crystal.ecsworkshop.local:3000/crystal"
